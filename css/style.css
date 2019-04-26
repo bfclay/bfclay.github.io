@@ -95,7 +95,8 @@ margin:1 auto;
 padding:20px;
 box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
 border-radius: 20px;
-background-color: #white;
+background-color: #ffffff;
+margin-top: 19%;
 }
 
 .content h2
@@ -116,10 +117,8 @@ text-align:center;
 
 /* Подвал */
 .footer
-{
-width:100%;
-text-align:center;
-margin-top:20px;
+{  margin-top: 20%;
+   margin-left: 46%;
 }
 .footer p, .footer a
 {
