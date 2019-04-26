@@ -16,18 +16,17 @@ div {
   margin: 0 auto;
   /*font-size: 22px*/
 }
-.phon
+.contents
 {
-width:1342px;
+width:344px;
 margin:0 auto;
-height: 1200px;
-margin-top: -4px;
+padding:500px;
 box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
-border-radius: 0px;
-background: #ffffff;
+border-radius: 0px 0px 20px 20px;
+background-color: #ffffff;
 }
 
-.phon h2
+.contents h2
 {
 font: 23px Verdana, Arial, Helvetica, sans-serif;
 color:#444;
@@ -35,14 +34,13 @@ text-align:center;
 
 }
 
-.phon p
+.contents p
 {
 font: 18px Verdana, Arial, Helvetica, sans-serif;
 color:#444;
 text-indent:20px;
 text-align:center;
 }
-
 
 .p
 {
@@ -118,7 +116,7 @@ text-align:center;
 .content
 {
 width:1000px;
-margin:0 auto;
+margin:1 auto;
 padding:20px;
 box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
 border-radius: 20px;
@@ -150,7 +148,7 @@ margin-top:20px;
 .footer p, .footer a
 {
 font: 14px Verdana, Arial, Helvetica, sans-serif;
-color:#444;
+color:#ffffff;
 }
  
 .footer a
@@ -161,7 +159,6 @@ border-bottom:1px dotted #444;
  
 .footer a:hover
 {
-text-decoration: none;
 border:0px;
 }
 /*
