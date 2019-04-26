@@ -1,0 +1,254 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+  background: url(img/wall.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-attachment;
+}
+
+div {
+  width: 80vw;
+  color: #fff;
+  margin: 0 auto;
+  /*font-size: 22px*/
+}
+.phon
+{
+width:1342px;
+margin:0 auto;
+height: 1200px;
+margin-top: -4px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+border-radius: 0px;
+background: #ffffff;
+}
+
+.phon h2
+{
+font: 23px Verdana, Arial, Helvetica, sans-serif;
+color:#444;
+text-align:center;
+
+}
+
+.phon p
+{
+font: 18px Verdana, Arial, Helvetica, sans-serif;
+color:#444;
+text-indent:20px;
+text-align:center;
+}
+
+
+.p
+{
+font: 18px Verdana, Arial, Helvetica, sans-serif;
+color:#444;
+text-indent:20px;
+text-align:center;
+}
+ /* Горизонтальный текст */
+.menu li
+{
+float:left;
+list-style: none;
+margin:10px 25px ;
+}
+
+/* Выравнивание по центру надписей */
+.menu
+{
+margin:0 auto;
+display:table;
+
+}
+/* Закраска меню и тень */
+.blok-menu
+{
+overflow: hidden;
+background: #444;
+border-radius: 10px 10px 0px 0px;
+}
+/* Размер и цвет в названиях меню */
+.menu li a
+{
+font: 20px Verdana, Arial, Helvetica, sans-serif;
+color:#fff;
+text-decoration: none;
+}
+.menu li a:hover
+{
+font: 18px Verdana, Arial, Helvetica, sans-serif;
+color:#ccc;
+border-bottom:1px dotted #ccc;
+}
+/* Фон */
+.logo
+{
+margin:1 auto;
+width:10px;
+margin-top:20px;
+margin-bottom:30px;
+}
+/* Параметры фона */
+.logo img
+{
+border-radius: 100px; /* CSS3 */
+}
+/* Таблица */
+.content1
+{
+width:1000px;
+margin:0 auto;
+padding:20px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+border-radius: 20px;
+}
+.content1 p
+{
+font: 18px Verdana, Arial, Helvetica, sans-serif;
+color:#444;
+text-indent:20px;
+text-align:center;
+}
+.content
+{
+width:1000px;
+margin:0 auto;
+padding:20px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+border-radius: 20px;
+}
+
+.content h2
+{
+font: 23px Verdana, Arial, Helvetica, sans-serif;
+color:#444;
+text-align:center;
+
+}
+
+.content p
+{
+font: 18px Verdana, Arial, Helvetica, sans-serif;
+color:#444;
+text-indent:20px;
+text-align:center;
+}
+
+/* Подвал */
+.footer
+{
+width:100%;
+text-align:center;
+margin-top:20px;
+}
+.footer p, .footer a
+{
+font: 14px Verdana, Arial, Helvetica, sans-serif;
+color:#444;
+}
+ 
+.footer a
+{
+text-decoration: none;
+border-bottom:1px dotted #444;
+}
+ 
+.footer a:hover
+{
+text-decoration: none;
+border:0px;
+}
+/*
+.logo
+{
+margin:0 auto;
+width:200px;
+margin-top:30px;
+margin-bottom:30px;
+}
+*/
+.logot
+{
+margin:0 auto;
+width:200px;
+margin-top:30px;
+margin-bottom:30px;
+}
+/* Параметры фона */
+.logot img
+{
+border-radius: 100px; /* CSS3 */
+}
+
+.map
+{
+margin:0 auto;
+width:700px;
+margin-top:10px;
+margin-bottom:30px; 
+border-radius: 100px;
+}
+ 
+.cont
+{
+width:1000px;
+margin:0 auto;
+padding:20px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+border-radius: 20px;
+}
+
+
+#submit {
+font-family: sans-serif;
+color: #black;
+font-size: 18px;
+padding: 0px;
+text-decoration: none;
+}
+
+.contenthalf
+{
+width:450px;
+margin-left: 440px;
+padding:20px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+border-radius: 20px;
+background: #444;
+}
+
+.contenthalf h2
+{
+font: 23px Verdana, Arial, Helvetica, sans-serif;
+color:#ffffff;
+text-align:center;
+}
+
+.contenthalf p
+{
+font: 18px Verdana, Arial, Helvetica, sans-serif;
+color:#ffffff;
+text-indent:20px;
+text-align:center;
+}
+ 
+.button8 a {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  padding: .5em 2em; 
+  border: 2px solid;
+  border-radius: 10px;
+  transition: 0.5s;
+
+} 
+.button8 a:hover { background: rgba(255,255,255,.2); }
+.button8 a:active { background: white; }
+

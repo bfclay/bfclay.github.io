@@ -1,0 +1,11 @@
+body {
+  background: url(https://wallpaperscraft.com/image/guy_helmet_motorcyclist_sofa_118314_1920x1200.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+div {
+  width: 80vw;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 22px
+}
