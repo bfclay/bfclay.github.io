@@ -1,29 +1,28 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Обратная связь</title>
-</head>
-<body>
 <?php
-if (isset($_POST['name'])) {$name = $_POST['name'];}
-if (isset($_POST['email'])) {$email = $_POST['email'];}
-if (isset($_POST['mess'])) {$mess = $_POST['mess'];}
 
-$to = "renovatio.clay@gmail.com"; /*Укажите ваш адрес электоронной почты*/
-$headers = "Content-type: text/plain; charset=utf-8";
-$subject = "Сообщение с вашего сайта";
-$message = "Имя пославшего: $name \nЭлектронный адрес: $email \nСообщение: $mess";
-$send = mail ($to, $subject, $message, $headers);
-if ($send == 'true')
-{
-echo "<b>Спасибо за отправку вашего сообщения!<p>";
-echo "<a href=akeno.html>Нажмите,</a> чтобы вернуться на главную страницу";
+if(isset($_POST['submit'])){
+$to = "renovatio.clay@gmail.com";; // Здесь нужно написать e-mail, куда будут приходить письма
+$from = $_POST['email']; // this is the sender's Email address
+$first_name = $_POST['first_name'];
+$subject = "Форма отправки сообщений с сайта";
+$subject2 = "Copy of your form submission";
+$message = $first_name . " оставил сообщение:" . "\n\n" . $_POST['message'];
+$message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+
+$headers = "From:" . $from;
+$headers2 = "From:" . $to;
+
+mail($to,$subject,$message,$headers);
+// mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender - Отключено!
+echo "Сообщение отправлено. Спасибо Вам " . $first_name . ", мы скоро свяжемся с Вами.";
+echo "<br /><br /><a href='https://epicblog.net'>Вернуться на сайт.</a>";
+
 }
-else 
-{
-echo "<p><b>Ошибка. Сообщение не отправлено!";
-}
+
 ?>
-</body>
-</html>
+
+<!--Переадресация на главную страницу сайта, через 3 секунды-->
+<script language="JavaScript" type="text/javascript">
+function changeurl(){eval(self.location="akeno.html");}
+window.setTimeout("changeurl();",3000);
+</script>
