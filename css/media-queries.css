@@ -42,15 +42,15 @@
 
     .containerakeno
     {
-    width: 1700px;
+    width: 1800px;
     font: 20px Helvetica;
     color: #000000;
-    margin-left: -300px;
+    margin-left: -295px;
     margin-top: 50px;
     border-radius: 0px;
     }
     .column12{
-    width: 1700px;
+    width: 1800px;
     height: 500px;  
     background-color: #444;
     color: #fff;
@@ -58,7 +58,7 @@
     border-radius: 0px;
     }
     .column21{
-    width: 1700px;
+    width: 1800px;
     height: 500px;   
     background-color: #444;
     color: #fff;
@@ -78,7 +78,6 @@
     border-radius: 0px;
     margin-top: 50px;
     }
-
     .footer228
     {  margin-top: 270px;
        margin-left: 700px;
